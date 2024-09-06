@@ -1174,3 +1174,40 @@ strong {
   }
 }
 
+/* Styles for mobile devices */
+@media only screen and (max-width: 600px) {
+  .hero-title {
+    font-size: 1.5em;
+  }
+
+  .about-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Styles for tablets and up */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .hero-title {
+    font-size: 2em;
+  }
+
+  .about-image {
+    width: 50%;
+    height: auto;
+  }
+}
+
+/* Styles for larger screens */
+@media only screen and (min-width: 1025px) {
+  .hero-title {
+    font-size: 3em;
+  }
+
+  .about-image {
+    width: 40%;
+    height: auto;
+  }
+}
+
+
